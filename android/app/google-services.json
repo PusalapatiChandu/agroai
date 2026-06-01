@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "259496958210",
+    "firebase_url": "https://smartcrop-efd5e-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "smartcrop-efd5e",
+    "storage_bucket": "smartcrop-efd5e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:259496958210:android:1112bf9cca2e43bf780a1b",
+        "android_client_info": {
+          "package_name": "com.example.smartcrop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "259496958210-4mqg2ivprdndh9u684urt3fp6nm63r5l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWKfG86jzPihHygY0-fnaLhTal7_9Fc0M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "259496958210-4mqg2ivprdndh9u684urt3fp6nm63r5l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

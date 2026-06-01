@@ -1,0 +1,69 @@
+name: crop_disease_app
+description: AI-Based Smart Crop Disease Detection and Farming Assistant
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase
+  firebase_core: ^4.9.0
+  firebase_auth: ^6.5.1
+  cloud_firestore: ^6.4.1
+  firebase_storage: ^13.4.1
+
+  # Camera & Image
+  image_picker: ^1.0.7
+  camera: ^0.12.0+1
+
+  # HTTP & API
+  http: ^1.2.0
+  dio: ^5.4.1
+  flutter_dotenv: ^5.1.0
+
+  # UI
+  cupertino_icons: ^1.0.6
+  google_fonts: ^8.1.0
+  flutter_animate: ^4.5.0
+  lottie: ^3.0.0
+  shimmer: ^3.0.0
+  percent_indicator: ^4.2.3
+  fl_chart: ^1.2.0
+
+  # State Management
+  provider: ^6.1.2
+  shared_preferences: ^2.2.2
+
+  # Utilities
+  intl: ^0.20.2
+  path_provider: ^2.1.2
+  image: ^4.1.7
+  uuid: ^4.3.3
+  connectivity_plus: ^7.1.1
+  geolocator: ^14.0.2
+  geocoding: ^4.0.0
+  permission_handler: ^12.0.1
+  google_generative_ai: ^0.4.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - .env
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/logo.png"
+  min_sdk_android: 21
