@@ -2,8 +2,9 @@
   command = """
   git clone https://github.com/flutter/flutter.git -b stable --depth 1
   export PATH="$PATH:`pwd`/flutter/bin"
+  echo "GROQ_API_KEY=$GROQ_API_KEY" > .env
   flutter doctor
   flutter pub get
-  flutter build web --release --no-wasm-dry-run
+  flutter build web --release --no-wasm-dry-run --dart-define-from-file=.env
   """
   publish = "build/web"
